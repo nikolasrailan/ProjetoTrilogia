@@ -1,0 +1,79 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "AnonimRound", sans-serif;
+  color: #222;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+/*---------*/
+.menu-bg {
+  background-image: url("/img/fundo-1.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-bg h1 {
+  text-align: center;
+  font-size: 8rem;
+  color: #fff;
+  padding-top: 6rem;
+}
+
+.menu-bg h1 span {
+  color: #f00;
+}
+
+.menu-nav {
+  margin-top: 30px;
+}
+
+.menu-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-nav ul li {
+  margin: 15px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.menu-nav a {
+  padding: 20px 40px;
+  background: #c5c5c5a1;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.menu-nav a:hover {
+  background: #8b8b8ba1;
+}
