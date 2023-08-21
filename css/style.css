@@ -10,7 +10,7 @@ a {
 }
 
 body {
-  font-family: "AnonimRound", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #222;
 }
 
@@ -31,6 +31,10 @@ img {
   box-sizing: border-box;
 }
 /*---------*/
+body {
+  background: #1f1f1f;
+}
+
 .menu-bg {
   background-image: url("/img/fundo-1.jpg");
   background-color: #cccccc;
@@ -76,4 +80,49 @@ img {
 
 .menu-nav a:hover {
   background: #8b8b8ba1;
+}
+
+/*--------------------*/
+.filme {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.filme h1,
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.conteudo-filme {
+  display: flex;
+  gap: 20px;
+}
+
+.conteudo-filme p {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 35px;
+  text-indent: 15px;
+}
+
+.filme iframe {
+  margin: 10px auto;
+  width: 860px;
+  height: 490px;
+}
+
+.filme p {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 35px;
+  text-indent: 15px;
+}
+
+.filme:nth-child(2n) {
+  background: #363636;
 }
